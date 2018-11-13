@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-form-field-appearance-fill {
+	background-color: rgba(255, 255, 255, 0.2) !important;
+	border-radius: 25px;
+}
+
+body {
+	margin: 0;
+	background-color: #A9A9A9;
+	font-family: Lato, 'Courier New', Courier, monospace;
+}
+
+.banner-background {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/assets/pokemon-banner.png") no-repeat center;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+.mat-form-field-flex .mat-form-field-flex .mat-form-field-appearance-fill {
+	border-radius: 25px;
+}
+
+.mat-form-field-flex {
+	background-color: rgba(0,0,0,0) !important; 
+}
